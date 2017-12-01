@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+</head>
+<body>
+<header id="vipInfoMineHeader" >
+    <a onclick="goBack.myLottery();" class="icon_back" ></a>
+    <h1>我的等级</h1>
+</header>
+<div class="content">
+    <div class="walletTop vip-myInfo" id="myVipInfo">
+        <img id="myVip_badge" alt="myVipInfo"/>
+        <h3 id="myVip_title" style="margin:0 0 6px;color:#666666;text-shadow: #e2e2e2 4px 3px;" ></h3>
+
+        <!-- 进度条 -->
+        <div class="sub">
+            <div class="subnum">
+                <div class="divison">
+                    <span class="jd-off"></span>
+                    <span class="jd-off"></span>
+                    <span class="jd-off"></span>
+                    <span class="jd-off"></span>
+                    <span class="jd-off"></span>
+                    <span class="jd-off"></span>
+                </div>
+
+                <div class="divnum">
+                    <!-- .off已过等级样式 .on达到等级样式 -->
+                    <ul>
+                        <li class="z-off">青铜</li>
+                        <li class="z-off">白银</li>
+                        <li class="z-off">黄金</li>
+                        <li class="z-off">珀金</li>
+                        <li class="z-off">钻石</li>
+                        <li class="z-off">王者</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <ul style="color: #666666; margin-top: 6px;">
+            <li id="myVip_alreadyBet"></li>
+            <li id="myVip_needToBet"></li>
+        </ul>
+    </div>
+
+    <div id="myVipItems" class="vip-items">
+    </div>
+
+    <div class="walletTop vip-welfare">
+        <h3>VIP 福利说明</h3>
+        <div>
+            ● <b>晋升奖金</b>：每晋升一个等级即可领取该等级奖金，每位会员每个等级只能领取一次！<br>
+            ● <b>维持礼金</b>：若本周期可维持与上周期相同阶级 VIP，当月加增相对应的维持奖励！<br>
+            ● <b>负盈利安慰奖</b>：会员本周期本身若是负盈利，即可领取负盈利的相对应的安慰奖金！ <br>
+        </div>
+        <br>
+        <h3>VIP 条款</h3>
+        <div>
+            ● VIP 审核时间为每月1日和16日，计算上周有效投注量；<br>
+            ● 达成 VIP 条件之会员，若下个周期没达到该VIP条件，即做降级处理；<br>
+            ● 利用 VIP 奖励和其他优惠进行违规套利者，将扣除相应奖励，严重者直接冻结账户；<br>
+            ● 平台保有随时修改，终止取消优惠或收回已支付的全部优惠全力以及最终解释权。<br>
+        </div>
+        <br>
+    </div>
+
+</div>
+</body>
+</html>
